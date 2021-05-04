@@ -9,7 +9,6 @@ Q1: You will have an orthogonal triangle input from a file and you need to find 
 5. You have to treat your input as pyramid.
 
 According to above rules the maximum sum of the numbers from top to bottom in below example is 24.
-
 1
 8 4
 2 6 9
