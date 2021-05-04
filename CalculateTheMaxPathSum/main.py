@@ -39,7 +39,6 @@ def main():
     f = open("input.txt", "r")
     ### list with input lines ###
     lst = f.read().splitlines()
-    lst = lst[:-1]
     tmplist = []
     i = 0
     ### get the list of list of intetegers ###
