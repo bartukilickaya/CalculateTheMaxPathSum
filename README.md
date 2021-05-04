@@ -10,16 +10,17 @@ Q1: You will have an orthogonal triangle input from a file and you need to find 
 
 According to above rules the maximum sum of the numbers from top to bottom in below example is 24.
 
-      *1
-     *8 4
-    2 *6 9
-   8 5 *9 3
+1
+8 4
+2 6 9
+8 5 9 3
 
 As you can see this has several paths that fits the rule of NOT PRIME NUMBERS; 1>8>6>9, 1>4>6>9, 1>4>9>9
 1 + 8 + 6 + 9 = 24.  As you see 1, 8, 6, 9 are all NOT PRIME NUMBERS and walking over these yields the maximum sum.
 
 
 Q2: According to assignment that you implemented what is the maximum sum of below input? It means please take this input (as file or constants directly inside the code) for your implementation and solve by using it.
+
 215
 193 124
 117 237 442
