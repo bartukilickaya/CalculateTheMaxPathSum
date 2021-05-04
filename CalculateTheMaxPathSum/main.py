@@ -1,4 +1,3 @@
-``` python
 ### Check each number with is_prime ###
 def is_prime(n):
     if n <= 1:
@@ -58,7 +57,6 @@ def main():
 ### Call main to compute
 main()
 
-``` python
 
 
 
