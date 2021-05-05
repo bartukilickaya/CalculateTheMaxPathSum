@@ -16,9 +16,7 @@ def solve(lst):
         newlst = []
         i = 0
         while i < len(candidates): ### candidates of total list traversal
-            if candidates[i][0] - 1 >= 0 and not is_prime(elem[candidates[i][0]-1]): ### check the left diagonal
-                newlst.append([candidates[i][0]-1, elem[candidates[i][0]-1] + candidates[i][1]])
-            if not is_prime(elem[candidates[i][0]]): ### check downward
+            if not is_prime(elem[candidates[i][0]]): ### check the left diagonal
                 newlst.append([candidates[i][0], candidates[i][1] + elem[candidates[i][0]]])
             if candidates[i][0] + 1 <= len(elem) - 1 and not is_prime(elem[candidates[i][0] + 1]): ### check the right diagonal
                 newlst.append([candidates[i][0] + 1, candidates[i][1] + elem[candidates[i][0] + 1]])
@@ -49,22 +47,8 @@ def main():
         lst[i] = tmplist
         tmplist = []
         i += 1
-
     res = solve(lst)
     print(res)
 
 ### Call main to compute
 main()
-
-
-
-
-
-
-
-
-
-
-
-
-
